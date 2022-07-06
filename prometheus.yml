@@ -46,9 +46,9 @@ scrape_configs:
         labels:
           alias: mysql
 
-  - job_name: "windows_exporter"
-    scrape_interval: 1s
-    static_configs:
-      - targets:
-        - "10.36.52.49:9182"
+//  - job_name: "windows_exporter"
+//    scrape_interval: 1s
+//    static_configs:
+//      - targets:
+        - 1.1.1.817"
         - "192.168.10.94:9182"
